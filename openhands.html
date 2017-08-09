@@ -36,7 +36,17 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');}
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
+
+  #google_translate_element {
+   position: absolute;
+   left: 5px;
+   z-index: 1;
+ }
+ #header {
+   margin-top: 10px;
+ }
+
+  </body>
   
  <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
