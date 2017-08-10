@@ -1,6 +1,6 @@
 /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 
-google_translate_element {
+#google_translate_element {
    position: absolute;
    top: 5px;
    left: 12px;
