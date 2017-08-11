@@ -8,6 +8,9 @@
     margin-right: auto;
     width: 8em
  }
+
+.goog-te-banner-frame.skiptranslate {display: none !important;} 
+
 #portfolio {
    margin-top: 10px;
  }
@@ -27,6 +30,7 @@ html {
 }
 body {
     margin: 0
+    top: 0px !important; 
 }
 article,
 aside,
