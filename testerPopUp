@@ -1,0 +1,5 @@
+
+<html>
+<p onClick=window.close>Change Language to Spanish</p>
+<p onClick=window.close>Change Language to French</p>
+</html>
