@@ -20,7 +20,7 @@ div.heading
   
 img
   {
-    height: 300px;
+    height: 300px; <!--Makes sure all images are the same size-->
   }
   
 </style>
@@ -49,7 +49,7 @@ img
   
 <!--Title Heading-->  
 <div class="heading">
-<br>
+<br><!--Line breaks to make sure white space is even on top and bottom-->
 <br>
 <h2>Food in the Bronx</h2>
 </div>
@@ -58,11 +58,14 @@ img
   <!--First Photo-->
     <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-    <a href="http://www.foodbanknyc.org/">
-    <img src="http://rew-online.com/wp-content/uploads/2014/07/foodbank.jpg" 
-         alt="One" style="width:100%" class="w3-hover-opacity">
-    </a>
-    <div class="w3-container w3-white">  
+    <a href="http://www.foodbanknyc.org/"><!--Makes image a link to the place's website-->
+    <!--image source-->
+      <img src="http://rew-online.com/wp-content/uploads/2014/07/foodbank.jpg" 
+         alt="One" 
+         style="width:100%" 
+         class="w3-hover-opacity"><!--When hover, will change opacity of the image-->
+    </a><!--Makes only image the link. It is the link ender tag-->
+    <div class="w3-container w3-white">  <!--White border around text section-->
     <p><b>Food Bank for NYC </b></p>
     <p><a href="https://www.google.com/maps/place/355+Food+Center+Dr,+Bronx,+NY+10474/@40.8067287,-73.8741942,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f512700684e1:0x86c81ffd5f2a2c8!8m2!3d40.8067287!4d-73.8720055" target="_blank">
     355 Food Center Dr, Bronx, NY 10474 </a>
